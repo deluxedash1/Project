@@ -12,12 +12,6 @@ class FileCopyApp:
         self.root.geometry("1000x800")
         self.root.configure(bg="#f5f5f5")
 
-        # иконка окна (если есть)
-        try:
-            self.root.iconbitmap("copy_icon.ico")
-        except:
-            pass
-
         # переменные
         self.source_path = tk.StringVar()
         self.destination_path = tk.StringVar()
@@ -411,4 +405,5 @@ class FileCopyApp:
         self.progress.stop()
         self.progress.pack_forget()
         self.copy_button.config(state="normal", text="Начать копирование")
+
         self.update_status("Готово к работе")
