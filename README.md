@@ -18,6 +18,7 @@ file-copying/
 ├── Dockerfile  
 ├── README.md  
 ├── requirements.txt  
+├── run.bat  
 
 # Локальный запуск
 Запуск производится через файл run.bat, но требует установки VcXsrv, альтернативно можно запустить файл main.py в папке src
