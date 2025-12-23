@@ -94,7 +94,7 @@ class FileOperations: # главный модуль для копировани�
 
 def main(): # запуск программы
     import tkinter as tk
-    from gui import FileCopyApp
+    from guiModule import FileCopyApp
     
     root = tk.Tk()
     app = FileCopyApp(root)
