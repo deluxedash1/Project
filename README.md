@@ -23,7 +23,7 @@ file-copying/
 Запуск производится через файл run.bat или можно запустить самому
 run.bat требует установки VcXsrv, альтернативно можно запустить файл main.py в папке src
 
-# Запуск через Docker
+# Запуск через Docker (Linux)
 docker build -t file-copy-app .
 docker run -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix file-copy-app
 
