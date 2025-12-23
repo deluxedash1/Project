@@ -1,11 +1,18 @@
-# Файл для Docker - указывает какие файлы не копировать в образ
-
-# Игнорировать кэш Python
-pycache
-*.pyc
-
-# Игнорировать Git-репозиторий
 .git
-
-# Игнорировать файлы окружения
-.env
+.gitignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.log
+*.tmp
+*.db
+dist/
+build/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
