@@ -14,7 +14,7 @@ file-copying/
 │   ├── guiModule.py      
 │   └── main.py  
 ├── .dockerignore  
-├── .gitignore
+├── .gitignore  
 ├── .pre-commit-config.yaml  
 ├── Dockerfile  
 ├── README.md  
